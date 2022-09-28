@@ -16,6 +16,7 @@ export function evaluate({ currentOperand, previousOperand, operation }) {
     case "÷":
       computation = prev / cur;
       break;
+    // no default
   }
   return computation.toString();
 }
