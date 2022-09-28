@@ -1,5 +1,6 @@
 import { ACTIONS } from "./Actions";
 import { evaluate } from "./Evaluate";
+
 export function reducer(state, { type, payload }) {
   switch (type) {
     case ACTIONS.ADD_DIGIT:
